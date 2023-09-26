@@ -1,0 +1,162 @@
+﻿@page
+@model LoginModel
+
+
+@{
+    ViewData["Title"] = "Log in";
+    Layout = "";
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- META ============================================= -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+
+    <!-- FAVICONS ICON ============================================= -->
+    <link rel="icon" href="~/images/favicon.ico" type="image/x-icon" asp-append-version="true" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/logoicon.png" asp-append-version="true" />
+
+    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Robotik Bilim </title>
+
+    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--[if lt IE 9]>
+    <script src="~/Scripts/js/html5shiv.min.js"></script>
+    <script src="~/Scripts/js/respond.min.js"></script>
+    <![endif]-->
+    <!-- All PLUGINS CSS ============================================= -->
+    <link rel="stylesheet" type="text/css" href="~/css/assets.css" asp-append-version="true">
+
+    <!-- TYPOGRAPHY ============================================= -->
+    <link rel="stylesheet" type="text/css" href="~/css/typography.css" asp-append-version="true">
+
+    <!-- SHORTCODES ============================================= -->
+    <link rel="stylesheet" type="text/css" href="~/css/shortcodes/shortcodes.css" asp-append-version="true">
+
+    <!-- STYLESHEETS ============================================= -->
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <link class="skin" rel="stylesheet" type="text/css" href="~/css/color/color-1.css" asp-append-version="true">
+
+</head> 
+<body id="bg">
+    <div class="page-wraper">
+        <div id="loading-icon-bx"></div>
+        <div class="account-form">
+            <div class="account-head" style="background-image:url(~/images/AltiYaziliLogo.png);">
+                <img src="~/images/AltiYaziliLogo.png" alt="">
+            </div>
+            <div class="account-form-inner">
+                <div class="account-container">
+                    <div class="heading-bx left">
+                        <h2 class="title-head">Hesap <span>Girişi</span></h2>
+
+                    </div>
+                    <form class="contact-bx" method="post">
+                        <div class="row placeani">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <label>Kullanıcı Adı</label>
+                                        <input asp-for="Input.Username" class="form-control" autocomplete="username" aria-required="true" />
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <label>Şifre</label>
+                                        <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group form-forget">
+                                    <div class="custom-control custom-checkbox">
+                                        <input class="custom-control-input" asp-for="Input.RememberMe" id="customControlAutosizing" />
+                                        <label class="custom-control-label" for="customControlAutosizing">Beni Hatırla</label>
+                                    </div>
+                                    <a href="@Url.Action("ForgotPassword","Home")" class="ml-auto">Şifremi Unuttum</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 m-b30">
+
+                                <button type="submit" id="login-submit" class="btn button-md"> Giriş  </button>
+
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Scripts/js/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/vendors/bootstrap/js/popper.min.js" asp-append-version="true"></script>
+    <script src="~/vendors/bootstrap/js/bootstrap.min.js" asp-append-version="true"></script>
+    <script src="~/vendors/bootstrap-select/bootstrap-select.min.js" asp-append-version="true"></script>
+    <script src="~/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js" asp-append-version="true"></script>
+    <script src="~/vendors/magnific-popup/magnific-popup.js" asp-append-version="true"></script>
+    <script src="~/vendors/counter/waypoints-min.js" asp-append-version="true"></script>
+    <script src="~/vendors/counter/counterup.min.js" asp-append-version="true"></script>
+    <script src="~/vendors/imagesloaded/imagesloaded.js" asp-append-version="true"></script>
+    <script src="~/vendors/masonry/masonry.js" asp-append-version="true"></script>
+    <script src="~/vendors/masonry/filter.js" asp-append-version="true"></script>
+    <script src="~/vendors/owl-carousel/owl.carousel.js" asp-append-version="true"></script>
+    <script src="~/vendors/scroll/scrollbar.min.js" asp-append-version="true"></script>
+    <script src="~/Scripts/js/functions.js" asp-append-version="true"></script>
+<script src="~/Scripts/js/admin.js"asp-append-version="true"></script>
+    <script src="~/Scripts/js/contact.js" asp-append-version="true"></script>
+
+</body>
+</html>
+
+
+@* 
+<div class="row justify-content-center">
+    <div class="col-md-4">
+<h1>@ViewData["Title"]</h1>
+        <section>
+            <form id="account" method="post">
+                <h2>Use a local account to log in.</h2>
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-floating">
+                    <input asp-for="Input.Username" class="form-control" autocomplete="username" aria-required="true" />
+                    <label asp-for="Input.Username" class="form-label"></label>
+                    <span asp-validation-for="Input.Username" class="text-danger"></span>
+                </div>
+                <div class="form-floating">
+                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
+                    <label asp-for="Input.Password" class="form-label"></label>
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div>
+                    <div class="checkbox">
+                        <label asp-for="Input.RememberMe" class="form-label">
+                            <input class="form-check-input" asp-for="Input.RememberMe" />
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Log in</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+ *@
+@section Scripts {
+    @* <partial name="_ValidationScriptsPartial" /> *@
+}

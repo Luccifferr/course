@@ -1,0 +1,333 @@
+@model IEnumerable<CourseSystem.Models.ViewModels.CourseViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<!-- Mirrored from educhamp.themetrades.com/demo/admin/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Feb 2019 13:08:15 GMT -->
+<head>
+
+    <!-- META ============================================= -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="robotikbilim" content="" />
+    <meta name="egt" content="" />
+
+    <!-- FAVICONS ICON ============================================= -->
+    <link rel="icon" href="../error-404.html" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/logoicon.png" />
+
+    <!-- PAGE TITLE HERE ============================================= -->
+    <title>Robotik Bilim</title>
+
+    <!-- MOBILE SPECIFIC ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--[if lt IE 9]>
+    <script src="~/Scripts/js/html5shiv.min.js"></script>
+    <script src="~/Scripts/js/respond.min.js"></script>
+    <![endif]-->
+    <!-- All PLUGINS CSS ============================================= -->
+    <link rel="stylesheet" type="text/css" href="~/css/assets.css">
+    <link rel="stylesheet" type="text/css" href="~/vendors/calendar/fullcalendar.css">
+
+    <!-- TYPOGRAPHY ============================================= -->
+    <link rel="stylesheet" type="text/css" href="~/css/typography.css">
+
+    <!-- SHORTCODES ============================================= -->
+    <link rel="stylesheet" type="text/css" href="~/css/shortcodes/shortcodes.css">
+
+    <!-- STYLESHEETS ============================================= -->
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <link rel="stylesheet" type="text/css" href="~/css/dashboard.css">
+    <link class="skin" rel="stylesheet" type="text/css" href="~/css/color/color-1.css">
+
+</head>
+<body class="ttr-opened-sidebar ttr-pinned-sidebar">
+<header class="ttr-header">
+    <div class="ttr-header-wrapper">
+        <!--sidebar menu toggler start -->
+        <div class="ttr-toggle-sidebar ttr-material-button">
+            <i class="ti-close ttr-open-icon"></i>
+            <i class="ti-menu ttr-close-icon"></i>
+        </div>
+        <!--sidebar menu toggler end -->
+        <!--logo start -->
+        <div class="ttr-logo-box">
+            <div>
+                <a href="@Url.Action("IndexTeacher","Home")" class="ttr-logo">
+                    <img class="ttr-logo-mobile" alt="" src="~/images/logoicon.png" width="30" height="30">
+                    <img class="ttr-logo-desktop" alt="" src="~/images/yazilogoicon.png" width="160" height="27">
+                </a>
+            </div>
+        </div>
+        <!--logo end -->
+        <div class="ttr-header-menu">
+            <!-- header left menu start -->
+            <ul class="ttr-header-navigation">
+                <li>
+                    <a href="@Url.Action("IndexTeacher","Home")" class="ttr-material-button ttr-submenu-toggle">HOME</a>
+                </li>
+
+            </ul>
+            <!-- header left menu end -->
+        </div>
+        <div class="ttr-header-right ttr-with-seperator">
+            <!-- header right menu start -->
+            <ul class="ttr-header-navigation">
+                <li>
+                    <a href="#" class="ttr-material-button ttr-search-toggle"><i class="fa fa-search"></i></a>
+                </li>
+
+                <li>
+                    <a href="#" class="ttr-material-button ttr-submenu-toggle"><span class="ttr-icon"><i class="ti-user"></i><width ="32px" height="32"></span></a>
+                    <div class="ttr-header-submenu">
+                        <ul>
+                                <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="/Identity/Account/Login">
+                                    <button id="logout" type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                                </form> 
+                        </ul>
+                    </div>
+                </li>
+
+            </ul>
+            <!-- header right menu end -->
+        </div>
+        <!--header search panel start -->
+        <div class="ttr-search-bar">
+            <form class="ttr-search-form">
+                <div class="ttr-search-input-wrapper">
+                    <input type="text" name="qq" placeholder="search something..." class="ttr-search-input">
+                    <button type="submit" name="search" class="ttr-search-submit"><i class="ti-arrow-right"></i></button>
+                </div>
+                <span class="ttr-search-close ttr-search-toggle">
+                    <i class="ti-close"></i>
+                </span>
+            </form>
+        </div>
+        <!--header search panel end -->
+    </div>
+</header>
+<div class="ttr-sidebar">
+    <div class="ttr-sidebar-wrapper content-scroll">
+        <!-- side menu logo start -->
+        <div class="ttr-sidebar-logo">
+            <a href="@Url.Action("IndexTeacher","Home")"><img alt="" src="~/images/yazilogoicon.png" width="122" height="27"></a>
+            <!-- <div class="ttr-sidebar-pin-button" title="Pin/Unpin Menu">
+                <i class="material-icons ttr-fixed-icon">gps_fixed</i>
+                <i class="material-icons ttr-not-fixed-icon">gps_not_fixed</i>
+            </div> -->
+            <div class="ttr-sidebar-toggle-button">
+                <i class="ti-arrow-left"></i>
+            </div>
+        </div>
+
+        <!-- side menu logo end -->
+        <!-- sidebar menu start -->
+        <nav class="ttr-sidebar-navi">
+            <ul>
+                    @foreach (var item in Model)
+                    {
+                        
+                        
+
+                <li>
+                    <a href="`#" class="ttr-material-button">
+                        <span class="ttr-icon"><i class="ti-book"></i></span>
+                            <span class="ttr-label">@item.GradeName </span>
+                        <span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
+                    </a>
+                    <ul>
+                        <li>
+                                <a href="@Url.Action("Lectures", new{id = item.Course.Id})" class="ttr-material-button"><span class="ttr-label">@item.Course.Name</span></a>
+                        </li>
+                    </ul>
+                </li>
+                    }
+
+
+                <li class="ttr-seperate"></li>
+            </ul>
+            <!-- sidebar menu end -->
+        </nav>
+        <!-- sidebar menu end -->
+    </div>
+</div>
+
+<main class="ttr-wrapper">
+    <div class="container-fluid">
+        <div class="db-breadcrumb">
+            <h4 class="breadcrumb-title">Scratch</h4>
+            <ul class="db-breadcrumb-list">
+                <li><a href="@Url.Action("IndexTeacher","Home")"><i class="fa fa-home"></i>Home</a></li>
+                <li>Scratch</li>
+            </ul>
+        </div>
+        <div class="row">
+            <!-- Your Profile Views Chart -->
+            <div class="col-auto m-b30">
+                @foreach (var item in Model) {
+                <div class="widget-box">
+                    <div class="widget-inner">
+                        <div class="card-courses-list-bx admin-courses">
+                            <div class="card-courses-media">
+                                <a href="@Url.Action("Lectures", new{id = item.Course.Id})">  <img src="~/images/indir.png" alt="Ders1" /></a>
+
+                            </div>
+                            <div class="card-courses-user-info">
+
+                                <h4 class="text-xl-center">@item.Course.Name</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+            <!-- Your Profile Views Chart END-->
+        </div>
+    </div>
+</main>
+
+    <div class="ttr-overlay"></div>
+
+    <!-- External JavaScripts -->
+    <script src="~/Scripts/js/jquery.min.js"></script>
+    <script src="~/vendors/bootstrap/js/popper.min.js"></script>
+    <script src="~/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="~/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+    <script src="~/vendors/magnific-popup/magnific-popup.js"></script>
+    <script src="~/vendors/counter/waypoints-min.js"></script>
+    <script src="~/vendors/counter/counterup.min.js"></script>
+    <script src="~/vendors/imagesloaded/imagesloaded.js"></script>
+    <script src="~/vendors/masonry/masonry.js"></script>
+    <script src="~/vendors/masonry/filter.js"></script>
+    <script src="~/vendors/owl-carousel/owl.carousel.js"></script>
+    <script src='~/vendors/scroll/scrollbar.min.js'></script>
+    <script src="~/Scripts/js/functions.js"></script>
+    <script src="~/vendors/chart/chart.min.js"></script>
+    <script src="~/Scripts/js/admin.js"></script>
+    <script src="~/vendors/summernote/summernote.js"></script>
+    <script src="~/vendors/file-upload/imageuploadify.min.js"></script>
+    <script src="~/vendors/switcher/switcher.js"></script>
+    <script src='~/vendors/calendar/moment.min.js'></script>
+    <script src='~/vendors/calendar/fullcalendar.js'></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('#calendar').fullCalendar({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay,listWeek'
+                },
+                defaultDate: '2019-03-12',
+                navLinks: true, // can click day/week names to navigate views
+
+                weekNumbers: true,
+                weekNumbersWithinDays: true,
+                weekNumberCalculation: 'ISO',
+
+                editable: true,
+                eventLimit: true, // allow "more" link when too many events
+                events: [
+                    {
+                        title: 'All Day Event',
+                        start: '2019-03-01'
+                    },
+                    {
+                        title: 'Long Event',
+                        start: '2019-03-07',
+                        end: '2019-03-10'
+                    },
+                    {
+                        id: 999,
+                        title: 'Repeating Event',
+                        start: '2019-03-09T16:00:00'
+                    },
+                    {
+                        id: 999,
+                        title: 'Repeating Event',
+                        start: '2019-03-16T16:00:00'
+                    },
+                    {
+                        title: 'Conference',
+                        start: '2019-03-11',
+                        end: '2019-03-13'
+                    },
+                    {
+                        title: 'Meeting',
+                        start: '2019-03-12T10:30:00',
+                        end: '2019-03-12T12:30:00'
+                    },
+                    {
+                        title: 'Lunch',
+                        start: '2019-03-12T12:00:00'
+                    },
+                    {
+                        title: 'Meeting',
+                        start: '2019-03-12T14:30:00'
+                    },
+                    {
+                        title: 'Happy Hour',
+                        start: '2019-03-12T17:30:00'
+                    },
+                    {
+                        title: 'Dinner',
+                        start: '2019-03-12T20:00:00'
+                    },
+                    {
+                        title: 'Birthday Party',
+                        start: '2019-03-13T07:00:00'
+                    },
+                    {
+                        title: 'Click for Google',
+                        url: 'http://google.com/',
+                        start: '2019-03-28'
+                    }
+                ]
+            });
+
+        });</script>
+</body>
+
+<!-- Mirrored from educhamp.themetrades.com/demo/admin/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Feb 2019 13:09:05 GMT -->
+</html>
+@* 
+<h1>Course Dashboard</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Course.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GradeName)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Course.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GradeName)
+            </td>
+            <td>
+            <a asp-action="Lectures" asp-route-id="@item.Course.Id">Lectures</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table> *@

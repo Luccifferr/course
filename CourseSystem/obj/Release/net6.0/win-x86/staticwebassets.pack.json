@@ -1,0 +1,573 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\obj\\Release\\net6.0\\win-x86\\scopedcss\\projectbundle\\CourseSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CourseSystem.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\Scripts\\js\\admin.js",
+      "PackagePath": "staticwebassets\\Scripts\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\Scripts\\js\\functions.js",
+      "PackagePath": "staticwebassets\\Scripts\\js\\functions.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\Scripts\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\Scripts\\slick.js",
+      "PackagePath": "staticwebassets\\Scripts\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\assets.css",
+      "PackagePath": "staticwebassets\\css\\assets.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\color\\color-1.css",
+      "PackagePath": "staticwebassets\\css\\color\\color-1.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\accordion.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\accordion.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\alert.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\alert.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\breadcrumb.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\breadcrumb.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\button.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\button.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\divider.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\divider.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\form.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\icon-box.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\icon-box.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\layout.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\list.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\list.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\overlay.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\overlay.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\owl.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\pagination.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\pagination.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\pricingtable.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\pricingtable.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\separator.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\separator.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\shortcodes.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\shortcodes.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\shortcodes\\widget.css",
+      "PackagePath": "staticwebassets\\css\\shortcodes\\widget.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\text.css",
+      "PackagePath": "staticwebassets\\css\\text.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\css\\typography.css",
+      "PackagePath": "staticwebassets\\css\\typography.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\images\\AltiYaziliLogo.png",
+      "PackagePath": "staticwebassets\\images\\AltiYaziliLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\images\\Rüzgar Enerjisi.mp4",
+      "PackagePath": "staticwebassets\\images\\Rüzgar Enerjisi.mp4"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\images\\Scratch-Ders-1.html",
+      "PackagePath": "staticwebassets\\images\\Scratch-Ders-1.html"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\images\\indir.png",
+      "PackagePath": "staticwebassets\\images\\indir.png"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\images\\logoicon.png",
+      "PackagePath": "staticwebassets\\images\\logoicon.png"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\images\\testimonials\\pic1.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonials\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\images\\testimonials\\pic2.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonials\\pic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\images\\testimonials\\pic3.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonials\\pic3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\images\\yazilogoicon.png",
+      "PackagePath": "staticwebassets\\images\\yazilogoicon.png"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\bootstrap-select\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap-select\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\bootstrap-select\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap-select\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\bootstrap-touchspin\\jquery.bootstrap-touchspin.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap-touchspin\\jquery.bootstrap-touchspin.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\calendar\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\vendors\\calendar\\fullcalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\calendar\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\vendors\\calendar\\fullcalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\calendar\\moment.min.js",
+      "PackagePath": "staticwebassets\\vendors\\calendar\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\vendors\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\counter\\counterup.min.js",
+      "PackagePath": "staticwebassets\\vendors\\counter\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\counter\\waypoints-min.js",
+      "PackagePath": "staticwebassets\\vendors\\counter\\waypoints-min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\file-upload\\imageuploadify.min.css",
+      "PackagePath": "staticwebassets\\vendors\\file-upload\\imageuploadify.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\file-upload\\imageuploadify.min.js",
+      "PackagePath": "staticwebassets\\vendors\\file-upload\\imageuploadify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\fontawesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\vendors\\fontawesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\fontawesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\vendors\\fontawesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\imagesloaded\\imagesloaded.js",
+      "PackagePath": "staticwebassets\\vendors\\imagesloaded\\imagesloaded.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\magnific-popup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\vendors\\magnific-popup\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\magnific-popup\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\vendors\\magnific-popup\\magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\masonry\\filter.js",
+      "PackagePath": "staticwebassets\\vendors\\masonry\\filter.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\vendors\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\owl-carousel\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\vendors\\owl-carousel\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\owl-carousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\vendors\\owl-carousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\scroll\\scrollbar.css",
+      "PackagePath": "staticwebassets\\vendors\\scroll\\scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\scroll\\scrollbar.min.js",
+      "PackagePath": "staticwebassets\\vendors\\scroll\\scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\summernote\\font\\summernotec360.eot",
+      "PackagePath": "staticwebassets\\vendors\\summernote\\font\\summernotec360.eot"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\summernote\\font\\summernotec360.ttf",
+      "PackagePath": "staticwebassets\\vendors\\summernote\\font\\summernotec360.ttf"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\summernote\\font\\summernotec360.woff",
+      "PackagePath": "staticwebassets\\vendors\\summernote\\font\\summernotec360.woff"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\vendors\\summernote\\summernote.css"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\summernote\\summernote.js",
+      "PackagePath": "staticwebassets\\vendors\\summernote\\summernote.js"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\themify\\fonts\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\vendors\\themify\\fonts\\themify9f24.eot"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\themify\\fonts\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\vendors\\themify\\fonts\\themify9f24.svg"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\themify\\fonts\\themify9f24.ttf",
+      "PackagePath": "staticwebassets\\vendors\\themify\\fonts\\themify9f24.ttf"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\themify\\fonts\\themify9f24.woff",
+      "PackagePath": "staticwebassets\\vendors\\themify\\fonts\\themify9f24.woff"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\themify\\fonts\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\vendors\\themify\\fonts\\themifyd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\memir\\Desktop\\final\\coursesystem-master\\CourseSystem\\wwwroot\\vendors\\themify\\themify-icons.css",
+      "PackagePath": "staticwebassets\\vendors\\themify\\themify-icons.css"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.CourseSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.build.CourseSystem.props",
+      "PackagePath": "build\\CourseSystem.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.buildMultiTargeting.CourseSystem.props",
+      "PackagePath": "buildMultiTargeting\\CourseSystem.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.buildTransitive.CourseSystem.props",
+      "PackagePath": "buildTransitive\\CourseSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

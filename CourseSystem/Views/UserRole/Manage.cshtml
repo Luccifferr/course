@@ -1,0 +1,94 @@
+@model List<CourseSystem.Models.ViewModels.ManageUserRoleViewModel>
+@{
+    ViewData["Title"] = "Manage";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<main class="ttr-wrapper">
+    <div class="container-fluid">
+        <div class="db-breadcrumb">
+            <h4 class="breadcrumb-title">Kullanýcý/Rol Ýþlemleri</h4>
+            <ul class="db-breadcrumb-list">
+                <li><a href="@Url.Action("IndexAdmin","Home")"><i class="fa fa-home"></i>Home</a></li>
+                <li>Kullanýcý/Rol Ýþlemleri</li>
+            </ul>
+        </div>
+        <div class="row">
+            <!-- Your Profile Views Chart -->
+            <div class="col-lg-12 m-b30">
+                <div class="widget-box">
+                    <div class="wc-title">
+                        <h4>Kullanýcý/Rol Yönet</h4>
+                    </div>
+                    <div class="widget-inner">
+                        <form class="edit-profile m-b30" method="post">
+                            <div class="row">
+                                <div class="col-12">
+                                    <table id="item-add" style="width:100%;">
+                                        <tr class="list-item">
+                                            <td>
+                                                <div class="row">
+                                                    @for (int i = 0; i < Model.Count; i++)
+                        {
+                                                        <input type="hidden" asp-for="@Model[i].RoleId" />
+                                                        <input type="hidden" asp-for="@Model[i].RoleName" />
+                                                    <div class="col-md-4">
+                                                            <input asp-for="@Model[i].Selected" class="form-check-input" />
+                                                            <label for="myCheckbox" style="font-weight:normal;margin-top:13px;">@Model[i].RoleName</label>
+
+                                                    </div> 
+                        }
+
+                                                    <div class="col-md-2">
+                                                        <label class="col-form-label"></label>
+                                                        <div class="form-group">
+                                                            <button class="btn" type="submit">Güncelle</button>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Your Profile Views Chart END-->
+        </div>
+    </div>
+</main>
+
+
+<form method="post">
+    <div class="card">
+        <div class="card-header">
+            <h2>Manage User Roles</h2>
+            Add/Remove Roles for User / @ViewBag.UserName.
+        </div>
+        <div class="card-body">
+                        @for (int i = 0; i < Model.Count; i++)
+                        {
+                            <div class="form-check m-1">
+                                <input type="hidden" asp-for="@Model[i].RoleId" />
+                                <input type="hidden" asp-for="@Model[i].RoleName" />
+                                <input asp-for="@Model[i].Selected" class="form-check-input" />
+                                <label class="form-check-label" asp-for="@Model[i].Selected">
+                                    @Model[i].RoleName
+                                </label>
+                            </div>
+                        }
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </div>
+        <div class="card-footer">
+            <input type="submit" value="Update" class="btn btn-primary"
+                   style="width:auto" />
+            <a asp-action="Index"
+               class="btn btn-primary" style="width:auto">Cancel</a>
+        </div>
+    </div>
+</form>

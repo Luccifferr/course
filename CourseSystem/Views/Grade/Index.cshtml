@@ -1,0 +1,120 @@
+@model IEnumerable<CourseSystem.Models.Grade>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<main class="ttr-wrapper">
+    <div class="container-fluid">
+        <div class="db-breadcrumb">
+            <h4 class="breadcrumb-title">Sýnýf Ýþlemleri</h4>
+            <ul class="db-breadcrumb-list">
+                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li>Sýnýf Listesi</li>
+            </ul>
+        </div>
+        <div class="row">
+            <!-- Your Profile Views Chart -->
+            <div class="col-lg-12 m-b30">
+                <div class="widget-box">
+                   
+                    <div class="  m-b30">
+                        <div class="col-lg-6 m-b30">
+                            <div class="widget-box">
+                                <div class="wc-title">
+                                    <h4>Sýnýf Listesi</h4>
+                                </div>
+                                <div class="widget-inner">
+                                    @foreach (var item in Model) {
+                                    <div class="new-user-list">
+                                        <ul>
+                                            <li>
+                                                <span class="new-users-text">
+                                                    <a class="new-users-name" style="cursor:default"> @item.Name </a>
+                                                </span>
+                                                    <span class="new-users-btn ensag">
+                                                        <a class="btn button-sm outline " href="@Url.Action("Edit" ,"Grade",new {id = item.Id})">Kullanýcý Düzenle</a>
+                                                    </span> 
+                                                <span class="new-users-btn">
+                                                    <a href="#" class="btn button-sm outline remowebutton" data-id="@item.Id">Sýnýfý Sil</a>
+                                                </span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Your Profile Views Chart END-->
+        </div>
+    </div>
+</main>
+<style>
+    .sag{
+        margin-left:10px;
+    }
+    .ensag{
+        text-align:right !important;
+    }
+</style>
+
+@section Scripts{
+    <script>
+        $(".remowebutton").click(function () {
+            // console.log('.divremove'  $(this).data("id"));
+            const swalWithBootstrapButtons = Swal.mixin({
+                customClass: {
+                    confirmButton: 'btn btn-success sag',
+                    cancelButton: 'btn btn-danger'
+                },
+                buttonsStyling: false
+            })
+
+            swalWithBootstrapButtons.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonText: 'Yes, delete it!',
+                cancelButtonText: 'No, cancel!',
+                reverseButtons: true
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Termal Macun
+                    $.ajax({
+                        url: "/Grade/Delete?id=" + $(this).data("id"),
+                        method: "get",
+                        success: function (res) {
+                            if (res.silindimi) {
+                                // divToRemove.parentNode.removeChild(document.getElementById("divremove" + $(this).data("id")));
+                                window.location.reload();
+                                // $("#divremove" + $(this).data("id")).remove();
+                                // swalWithBootstrapButtons.fire(
+                                //     'Deleted!',
+                                //     'deleted it',
+                                //     'success'
+                                // )
+                            } else {
+                                swalWithBootstrapButtons.fire(
+                                    'Something went wrong',
+                                    res.hataMesaji,
+                                    'error'
+                                )
+                            }
+                        },
+                        error: function (err) {
+                            console.log(err);
+                        },
+                    });
+                }
+            })
+        }); 
+    </script>
+    } 

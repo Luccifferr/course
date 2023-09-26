@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\asus\OneDrive\Masaüstü\New folder</_PublishTargetUrl>
+    <History>True|2023-09-25T17:40:44.4805521Z;True|2023-09-13T12:00:09.1047397+03:00;True|2023-09-13T10:44:58.9850775+03:00;True|2023-09-13T10:22:57.3302020+03:00;True|2023-09-13T10:14:13.4448474+03:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DbConn">
+      <Value>server=127.0.0.1%3buid=amc%3bpwd=12345%3bdatabase=course_system</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
